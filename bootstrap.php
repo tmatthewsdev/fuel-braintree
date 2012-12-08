@@ -40,6 +40,8 @@ Autoloader::add_classes(array(
 	'Braintree_Util'						=> __DIR__.'/classes/braintree/util.php',
 
 	'Braintree_Version'					=> __DIR__.'/classes/braintree/version.php',
+	'Braintree_WebhookNotification'     => __DIR__.'/classes/braintree/webhooknotification.php',
+	'Braintree_WebhookTesting'          => __DIR__.'/classes/braintree/webhooktesting.php',
 	'Braintree_Xml'						=> __DIR__.'/classes/braintree/xml.php',
 
 
@@ -56,8 +58,9 @@ Autoloader::add_classes(array(
 	'Braintree_Exception_Authentication'		=> __DIR__.'/classes/braintree/exception/authentication.php',
 	'Braintree_Exception_Authorization'		=> __DIR__.'/classes/braintree/exception/authorization.php',
 	'Braintree_Exception_Configuration'		=> __DIR__.'/classes/braintree/exception/configuration.php',
-	'Braintree_Exception_DownForMaintenance'	=> __DIR__.'/classes/braintree/exception/downformaintenance.php',
+	'Braintree_Exception_DownForMaintenance'    => __DIR__.'/classes/braintree/exception/downformaintenance.php',
 	'Braintree_Exception_ForgedQueryString'	=> __DIR__.'/classes/braintree/exception/forgedquerystring.php',
+	'Braintree_Exception_InvalidSignature'  => __DIR__.'/classes/braintree/exception/invalidsignature.php',
 	'Braintree_Exception_NotFound'			=> __DIR__.'/classes/braintree/exception/notfound.php',
 	'Braintree_Exception_ServerError'		=> __DIR__.'/classes/braintree/exception/servererror.php',
 	'Braintree_Exception_SSLCaFileNotFound'	=> __DIR__.'/classes/braintree/exception/sslcafilenotfound.php',
